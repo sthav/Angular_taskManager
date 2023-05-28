@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'task-manager';
+  currentYear: number = new Date().getFullYear();
 }
+
